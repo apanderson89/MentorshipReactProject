@@ -6,7 +6,7 @@ import { Route, IndexRoute } from 'react-router';
  */
 import App from './components/App';
 import MainPage from './components/MainPage';
-import SomePage from './components/SomePage';
+import SearchPage from './components/SearchPage';
 import SomeOtherPage from './components/SomeOtherPage';
 
 /**
@@ -16,7 +16,7 @@ import SomeOtherPage from './components/SomeOtherPage';
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={MainPage} />
-    <Route path="/some/where" component={SomePage} />
+    <Route path="/search/pahe" component={SearchPage} />
     <Route path="/some/otherpage" component={SomeOtherPage} />
   </Route>
 );
